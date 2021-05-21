@@ -1,0 +1,35 @@
+body {
+  background-color: #ddd;
+}
+
+.top-menu {
+  overflow: hidden;
+}
+
+.top-menu a {
+  float: left;
+  color: #28b5a0;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.top-menu a:hover {
+  background-color: rgb(103, 80, 80);
+  color: black;
+}
+
+.top-menu a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 1%;
+  background-color: #45a1ff;
+  color: #fff;
+  font-family: monospace;
+}
